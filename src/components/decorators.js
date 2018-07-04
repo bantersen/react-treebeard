@@ -29,7 +29,8 @@ const Toggle = ({style}) => {
     );
 };
 Toggle.propTypes = {
-    style: PropTypes.object
+    style: PropTypes.object,
+    node: PropTypes.object
 };
 
 const Header = ({node, style}) => {
@@ -80,9 +81,9 @@ class Container extends React.Component {
     }
 
     renderToggleDecorator() {
-        const {style, decorators} = this.props;
+        const {style, decorators, node} = this.props;
 
-        return <decorators.Toggle style={style.toggle}/>;
+        return <decorators.Toggle style={style.toggle} node={node}/>;
     }
 }
 Container.propTypes = {

@@ -12,8 +12,8 @@
     "example": "webpack-dev-server --content-base ./example/ --config ./example/webpack.config.js"
   },
   "peerDependencies": {
-    "react": "^15.5.4 || ^16.0.0",
-    "react-dom": "^15.5.4 || ^16.0.0"
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
   },
   "repository": {
     "type": "git",

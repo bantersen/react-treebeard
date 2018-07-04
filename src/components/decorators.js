@@ -12,7 +12,7 @@ Loading.propTypes = {
     style: PropTypes.object
 };
 
-const Toggle = ({style}) => {
+const Toggle = ({style, node}) => {
     const {height, width} = style;
     const midHeight = height * 0.5;
     const points = `0,0 0,${height} ${width},${midHeight}`;

@@ -119,11 +119,7 @@ class TreeNode extends React.Component {
         const {style} = this.props;
 
         return (
-            <ul style={style.subtree}>
-                <li>
-                    <decorators.Loading style={style.loading}/>
-                </li>
-            </ul>
+            <decorators.Loading style={style.loading}/>
         );
     }
 
